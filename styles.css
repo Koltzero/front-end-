@@ -1,0 +1,19 @@
+
+.prvni {
+     background-color: black;  
+     height: 1000px; }
+.druha {
+background-color: purple;
+height: auto;
+   }
+
+
+
+
+.nadpis {
+    color: white;    
+    font-size: 200px;
+    padding-top: 10%; }
+.nadpistwo {
+color:white
+}
