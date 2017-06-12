@@ -4,7 +4,7 @@
      height: 1000px; }
 .druha {
 background-color: purple;
-height: auto;
+height: 1000px;
    }
 
 
@@ -22,4 +22,54 @@ color:white
 width:125px;
 height:120px;
 margin-top: 50px;
+position:relative;
+}
+
+
+.arrow:hover {
+border-radius: 100px;
+background-color:whitesmoke;
+ border-width: 0px;
+    border-style: solid;
+    border-color: whitesmoke; 
+}
+.tile {
+    background-color: blue;
+    height: 320px;
+    width: 150px;
+    margin-top: 500px;
+
+}
+
+.sub {
+ color: white;
+ font-size: 55px;
+ padding-top: 40px;
+
+}
+
+  #content {
+width: 1000px;
+color: white;
+
+padding: 20px;
+padding-top 0;
+
+
+max-height: 70px;
+overflow: hidden;
+
+
+-webkit-transition: max-height 0.5s;
+-moz-transition: max-height 0.5s;
+transition: 0,5s;
+}
+
+
+#content.open {
+max-height: 1000px;
+
+ -webkit-transition: max height  0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max height 0,7s;
 }

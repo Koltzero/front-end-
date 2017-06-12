@@ -14,6 +14,30 @@ $("#para").hide();
 });
 
 $("#motto").click(function() {
-    alert("lol poser si boty ty sracko vole");
+    alert("jdi do pici ty zasrana mrdko vole doufam ze skapes na nějakou píčovinu , fuj na tebe");
 });
 
+$("a[href*=\\#scroll]").on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+
+$("#show").click(function() {
+    $
+}); 
+
+
+var content = document.getElementById("content");
+var button = document.getElementById("show-more");
+ 
+ button.onclick = function(){
+  
+   if(content.className == "open"){
+     content.className = "";
+      button.innerHTML = "Zobrazit více";
+   } 
+   else  {
+   content.className = "open";
+   button.innerHTML = "Sbalit";
+   }
+ }
