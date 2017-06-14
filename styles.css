@@ -1,10 +1,9 @@
-
 .prvni {
      background-color: black;  
      height: 1000px; }
 .druha {
 background-color: purple;
-height: 1000px;
+height: 900px;
    }
 
 
@@ -34,12 +33,29 @@ background-color:whitesmoke;
     border-color: whitesmoke; 
 }
 .tile {
-    background-color: blue;
+    background-color: red;
     height: 320px;
-    width: 150px;
-    margin-top: 500px;
+    width: 300px;
+    margin-top: 300px;
+    box-shadow: 5px 5px 5px brown;
+    margin-bottom:30%;
 
 }
+
+.tile:hover {
+    background-color: purple;
+    height: 320px;
+    width: 300px;
+    margin-top: 300px;
+    box-shadow: 5px 5px 5px white;
+    border-top: solid;
+    border-left: solid;
+    border-top-color: white;
+    border-left-color: white;
+    
+ 
+}
+
 
 .sub {
  color: white;
@@ -49,7 +65,7 @@ background-color:whitesmoke;
 }
 
   #content {
-width: 1000px;
+width: 900px;
 color: white;
 
 padding: 20px;
@@ -67,9 +83,25 @@ transition: 0,5s;
 
 
 #content.open {
-max-height: 1000px;
+max-height: 900px;
 
  -webkit-transition: max height  0.7s;
   -moz-transition: max-height 0.7s;
   transition: max height 0,7s;
+}
+
+.morebutton {
+color: blue;
+background-color: red;
+
+}
+
+.morebutton:hover {
+background-color: purple;
+box-shadow: 2px 2px 5px white;
+    border-top: solid;
+    border-left: solid;
+    border-top-color: white;
+    border-left-color: white;
+
 }
