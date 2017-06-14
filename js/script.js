@@ -22,6 +22,17 @@ $("a[href*=\\#scroll]").on('click', function(event){
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
 });
 
+$("a[href*=\\#charita]").on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+
+$("a[href*=\\#graphs]").on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+
+
 $("#show").click(function() {
     $
 }); 

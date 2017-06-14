@@ -5,6 +5,15 @@
 background-color: purple;
 height: 900px;
    }
+.treti {
+background-color: red;
+height: 900px;
+}
+.four {
+ background-color: gray;
+height: 900px;
+   
+}
 
 
 
@@ -33,12 +42,15 @@ background-color:whitesmoke;
     border-color: whitesmoke; 
 }
 .tile {
+    padding-top: 250px;
     background-color: red;
     height: 320px;
     width: 300px;
-    margin-top: 300px;
+    margin-left:20%;
+    margin-top: 110px;
     box-shadow: 5px 5px 5px brown;
-    margin-bottom:30%;
+    color: white;
+    overflow: hidden;
 
 }
 
@@ -46,13 +58,11 @@ background-color:whitesmoke;
     background-color: purple;
     height: 320px;
     width: 300px;
-    margin-top: 300px;
     box-shadow: 5px 5px 5px white;
     border-top: solid;
     border-left: solid;
     border-top-color: white;
     border-left-color: white;
-    
  
 }
 
